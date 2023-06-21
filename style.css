@@ -62,6 +62,7 @@ body
 .home-content
 {
     max-width: 600px;
+    color: #000;
 }
 .home-content h3 {
     font-size: 32px;
@@ -72,7 +73,28 @@ body
     font-weight: 700;
     margin:  -3px 0;
 }
-.home-content h3 p {
+.home-content p {
+    padding-top: 40px;
     font-size: 20px;
      
+}
+
+.home-sci a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid rgb(85, 119, 135);
+    border-radius: 75%;
+    font-size: 25px;
+    color: rgb(85, 119, 135);
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+}
+
+.home-sci a:hover{
+    background: rgb(85, 119, 135);
+    color: #000;
 }
