@@ -58,6 +58,7 @@ body
     background-position: center;
     align-items: center;
     padding: 70px 10% 0;
+    display: flex;
 }
 .home-content
 {
@@ -97,4 +98,33 @@ body
 .home-sci a:hover{
     background: rgb(85, 119, 135);
     color: #000;
+}
+
+.btn-box {
+    display: inline-block;
+    padding: 12px 28px;
+    background: rgb(141, 156, 157);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #d6dce1;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+.avatar {
+    display:inline-block;
+    position:relative;
+    width:400px;
+    height:400px;
+    overflow:hidden;
+    border-radius:50%;
+}
+
+.avatar img {
+    width:auto;
+    height:400px;
+    margin-left:-40%;
+    
 }
